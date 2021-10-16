@@ -1,0 +1,107 @@
+object FormUtama: TFormUtama
+  Left = 357
+  Height = 286
+  Top = 163
+  Width = 740
+  Caption = 'Praktikum 2 Jenis Citra Digital'
+  ClientHeight = 286
+  ClientWidth = 740
+  LCLVersion = '2.0.12.0'
+  object Image1: TImage
+    Left = 16
+    Height = 90
+    Top = 88
+    Width = 90
+    AutoSize = True
+    OnClick = Image1Click
+  end
+  object ButtonLoad: TBitBtn
+    Left = 16
+    Height = 30
+    Top = 8
+    Width = 75
+    Caption = 'Load'
+    OnClick = ButtonLoadClick
+    TabOrder = 0
+  end
+  object ButtonWarna: TBitBtn
+    Left = 112
+    Height = 30
+    Top = 8
+    Width = 75
+    Caption = 'Warna'
+    OnClick = ButtonWarnaClick
+    TabOrder = 1
+  end
+  object ButtonRed: TBitBtn
+    Left = 208
+    Height = 30
+    Top = 8
+    Width = 75
+    Caption = 'Red'
+    OnClick = ButtonRedClick
+    TabOrder = 2
+  end
+  object ButtonGreen: TBitBtn
+    Left = 304
+    Height = 30
+    Top = 8
+    Width = 75
+    Caption = 'Green'
+    OnClick = ButtonGreenClick
+    TabOrder = 3
+  end
+  object ButtonBlue: TBitBtn
+    Left = 400
+    Height = 30
+    Top = 8
+    Width = 75
+    Caption = 'Blue'
+    OnClick = ButtonBlueClick
+    TabOrder = 4
+  end
+  object ButtonGray: TBitBtn
+    Left = 496
+    Height = 30
+    Top = 8
+    Width = 75
+    Caption = 'Gray'
+    OnClick = ButtonGrayClick
+    TabOrder = 5
+  end
+  object ButtonSave: TBitBtn
+    Left = 592
+    Height = 30
+    Top = 8
+    Width = 75
+    Caption = 'Save'
+    OnClick = ButtonSaveClick
+    TabOrder = 6
+  end
+  object TrackBar1: TTrackBar
+    Left = 240
+    Height = 25
+    Top = 56
+    Width = 320
+    Max = 255
+    Position = 127
+    TabOrder = 7
+  end
+  object ButtonBiner: TBitBtn
+    Left = 592
+    Height = 30
+    Top = 56
+    Width = 75
+    Caption = 'Biner'
+    OnClick = ButtonBinerClick
+    TabOrder = 8
+  end
+  object OpenPictureDialog1: TOpenPictureDialog
+    Left = 152
+    Top = 56
+  end
+  object SavePictureDialog1: TSavePictureDialog
+    Left = 152
+    Top = 112
+  end
+end

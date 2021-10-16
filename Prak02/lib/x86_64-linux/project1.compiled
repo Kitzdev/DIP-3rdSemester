@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/bin/fpc" Date="1629461251"/>
+  <Params Value=" -MObjFPC -Scghi -Cg -O1 -g -gl -l -vewnhibq &quot;-Fi/home/kitbert/Desktop/Kuliah/Semester 3/Forum _ Tugas/Pengolahan Citra Digital/Tugas 1/lib/x86_64-linux&quot; -Fu/home/kitbert/.lazarus/lib/units/x86_64-linux/gtk2 -Fu/home/kitbert/.lazarus/lib/LCLBase/units/x86_64-linux -Fu/home/kitbert/.lazarus/lib/LazUtils/lib/x86_64-linux -Fu/home/kitbert/.lazarus/lib/units/x86_64-linux &quot;-Fu/home/kitbert/Desktop/Kuliah/Semester 3/Forum _ Tugas/Pengolahan Citra Digital/Tugas 1/&quot; &quot;-FU/home/kitbert/Desktop/Kuliah/Semester 3/Forum _ Tugas/Pengolahan Citra Digital/Tugas 1/lib/x86_64-linux/&quot; &quot;-FE/home/kitbert/Desktop/Kuliah/Semester 3/Forum _ Tugas/Pengolahan Citra Digital/Tugas 1/&quot; &quot;-o/home/kitbert/Desktop/Kuliah/Semester 3/Forum _ Tugas/Pengolahan Citra Digital/Tugas 1/project1&quot; -dLCL -dLCLgtk2 project1.lpr"/>
+  <Complete Value="False"/>
+</CONFIG>

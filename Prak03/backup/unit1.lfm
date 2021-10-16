@@ -1,0 +1,156 @@
+object FormUtama: TFormUtama
+  Left = -8
+  Height = 705
+  Top = -8
+  Width = 1366
+  Caption = 'Praktikum 2 Jenis Citra Digital'
+  ClientHeight = 705
+  ClientWidth = 1366
+  LCLVersion = '2.0.12.0'
+  object Image1: TImage
+    Left = 16
+    Height = 328
+    Top = 152
+    Width = 448
+    AutoSize = True
+  end
+  object ButtonLoad: TBitBtn
+    Left = 16
+    Height = 30
+    Top = 8
+    Width = 75
+    Caption = 'Load'
+    OnClick = ButtonLoadClick
+    TabOrder = 0
+  end
+  object ButtonWarna: TBitBtn
+    Left = 112
+    Height = 30
+    Top = 8
+    Width = 75
+    Caption = 'Warna'
+    OnClick = ButtonWarnaClick
+    TabOrder = 1
+  end
+  object ButtonGray: TBitBtn
+    Left = 112
+    Height = 30
+    Top = 48
+    Width = 75
+    Caption = 'Gray'
+    OnClick = ButtonGrayClick
+    TabOrder = 2
+  end
+  object ButtonSave: TBitBtn
+    Left = 16
+    Height = 30
+    Top = 48
+    Width = 75
+    Caption = 'Save'
+    OnClick = ButtonSaveClick
+    TabOrder = 3
+  end
+  object TrackBar1: TTrackBar
+    Left = 368
+    Height = 25
+    Top = 8
+    Width = 256
+    Max = 255
+    Min = -255
+    Position = 0
+    TabOrder = 4
+  end
+  object ButtonBiner: TBitBtn
+    Left = 112
+    Height = 30
+    Top = 88
+    Width = 75
+    Caption = 'Biner'
+    OnClick = ButtonBinerClick
+    TabOrder = 5
+  end
+  object TrackBar2: TTrackBar
+    Left = 368
+    Height = 25
+    Top = 64
+    Width = 256
+    Max = 255
+    Min = -255
+    Position = 0
+    TabOrder = 6
+  end
+  object TrackBar3: TTrackBar
+    Left = 368
+    Height = 25
+    Top = 112
+    Width = 256
+    Max = 5
+    Position = 0
+    TabOrder = 7
+  end
+  object ButtonBrightness: TBitBtn
+    Left = 216
+    Height = 30
+    Top = 8
+    Width = 75
+    Caption = 'Brightness'
+    OnClick = ButtonBrightnessClick
+    TabOrder = 8
+  end
+  object ButtonInvers: TButton
+    Left = 216
+    Height = 25
+    Top = 53
+    Width = 75
+    Caption = 'Invers'
+    OnClick = ButtonInversClick
+    TabOrder = 9
+  end
+  object kLabel: TLabel
+    Left = 320
+    Height = 15
+    Top = 16
+    Width = 6
+    Caption = 'k'
+    ParentColor = False
+  end
+  object PLabel: TLabel
+    Left = 320
+    Height = 15
+    Top = 72
+    Width = 7
+    Caption = 'P'
+    ParentColor = False
+  end
+  object GLabel: TLabel
+    Left = 320
+    Height = 15
+    Top = 122
+    Width = 8
+    Caption = 'G'
+    ParentColor = False
+  end
+  object ButtonContrast: TButton
+    Left = 216
+    Height = 25
+    Top = 96
+    Width = 75
+    Caption = 'Contrast'
+    OnClick = ButtonContrastClick
+    TabOrder = 10
+  end
+  object Image2: TImage
+    Left = 472
+    Height = 328
+    Top = 152
+    Width = 448
+    AutoSize = True
+  end
+  object OpenPictureDialog1: TOpenPictureDialog
+    Left = 696
+  end
+  object SavePictureDialog1: TSavePictureDialog
+    Left = 696
+    Top = 48
+  end
+end
